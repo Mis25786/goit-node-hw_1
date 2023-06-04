@@ -21,5 +21,10 @@
   "homepage": "https://github.com/Mis25786/goit-node-hw_1#readme",
   "devDependencies": {
     "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "commander": "^10.0.1",
+    "uuid": "^9.0.0",
+    "yargs": "^17.7.2"
   }
 }
