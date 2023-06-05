@@ -1,3 +1,5 @@
+// const argv = require("yargs").argv;
+
 const { program } = require("commander");
 
 const contactsOperations = require("./contacts");
@@ -32,7 +34,7 @@ async function invokeAction({ action, id, name, email, phone }) {
       break;
 
     default:
-      console.warn("\x1B[31m Unknown action type!");
+      console.warn("Unknown action!!!");
   }
 }
 

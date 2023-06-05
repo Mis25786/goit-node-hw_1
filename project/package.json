@@ -1,30 +1,22 @@
 {
-  "name": "goit-node-hw_1",
+  "name": "project",
   "version": "1.0.0",
-  "description": "",
+  "description": "скрін всіх викликаних команд в консолі знаходиться в кореневій папці дз goit-node-hw_1/screan",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
     "dev": "nodemon index"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mis25786/goit-node-hw_1.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Mis25786/goit-node-hw_1/issues"
-  },
-  "homepage": "https://github.com/Mis25786/goit-node-hw_1#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.22"
-  },
   "dependencies": {
     "commander": "^10.0.1",
     "uuid": "^9.0.0",
     "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
